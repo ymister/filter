@@ -1,0 +1,51 @@
+# global trash(almost)
+*://*.ch/*
+*://*.club/*
+*://*.com/topic/*
+*://*.com/wiki/*
+*://*.cz/*
+*://*.digital/*
+*://*.es/*
+*://*.fi/*
+*://*.fr/*
+*://*.fun/*
+*://*.info/*
+*://*.it/*
+*://*.life/*
+*://*.lt/*
+*://*.lv/*
+*://*.net/reviews/*
+*://*.nl/*
+*://*.online/*
+*://*.pl/*
+*://*.pro/*
+*://*.red/*
+*://*.ru/*
+*://*.tokyo/*
+*://*.ua/*
+*://*.xyz/*
+
+# local commercial site
+*://*.danawa.com/*
+*://*.enuri.com/*
+*://*.coupang.com/*
+*://*.coocha.co.kr/*
+*://*.auction.co.kr/*
+*://*.gmarket.co.kr/*
+*://*.gsshop.com/*
+*://*.homeplus.co.kr/*
+*://*.interpark.com/*
+*://*.11st.co.kr/*
+*://*.ssg.com/*
+*://*.lotteon.com/*
+*://*.tmon.co.kr/*
+*://*.shoppinghow.kakao.com/*
+
+# used commercial site
+*://*.bunjang.co.kr/*
+*://*.daangn.com/*
+
+# abroad commercial site
+*://*.eBay.com/*
+*://*.amazon.com/*
+*://*.aliexpress.com/*
