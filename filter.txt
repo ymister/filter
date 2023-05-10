@@ -1,12 +1,14 @@
-# 2023.03.09. 수정
+# 2023.05.10. 수정
+# hosts style + Adware style + uBlock Origin style 
 
-# host식 차단 리스트 
+# hosts식 차단 리스트
 # Naver 광고
 0.0.0.0 ad.naver.com
 0.0.0.0 ad.nbms.naver.com
 0.0.0.0 ad.news.naver.com
 0.0.0.0 ad.nmv.naver.com
 0.0.0.0 adc.naver.com
+#0.0.0.0 adcr.naver.com 쇼핑을 위해 차단 해제 
 0.0.0.0 adcreative.naver.com
 0.0.0.0 ams.rmcnmv.naver.com
 0.0.0.0 bb.ad.naver.com
@@ -121,7 +123,7 @@
 0.0.0.0 lh8.googleusercontent.com
 0.0.0.0 lh9.googleusercontent.com
 
-# 0.0.0.0 encrypted-tbn0.gstatic.com
+# 0.0.0.0 encrypted-tbn0.gstatic.com      일부 이미지가 안나와서!
 0.0.0.0 encrypted-tbn1.gstatic.com
 0.0.0.0 encrypted-tbn2.gstatic.com
 0.0.0.0 encrypted-tbn3.gstatic.com
@@ -167,6 +169,9 @@ veta.naver.com
 videost.nmv.naver.com
 vts.rmcnmv.naver.com
 wrd.naver.com
+
+! Naver 지도 광고 
+map.naver.com##div[id^="_ngcontent-oxp"]
 
 ! Kakao/Daum 광고
 adimg.daumcdn.net
@@ -220,6 +225,7 @@ googleads.g.doubleclick.net
 lh3.googleusercontent.com
 ad.doubleclick.net
 
+! uBlock Origin식 차단 리스트 (규칙 또는 주소+규칙)
 ! Naver 광고
 ||ad.naver.com
 ||ad.nbms.naver.com
@@ -340,7 +346,7 @@ ad.doubleclick.net
 ||lh8.googleusercontent.com^
 ||lh9.googleusercontent.com^
 
-! ||encrypted-tbn0.gstatic.com^
+! ||encrypted-tbn0.gstatic.com^       일부 이미지가 안나와서!
 ||encrypted-tbn1.gstatic.com^
 ||encrypted-tbn2.gstatic.com^
 ||encrypted-tbn3.gstatic.com^
