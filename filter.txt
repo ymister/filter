@@ -171,7 +171,7 @@ vts.rmcnmv.naver.com
 wrd.naver.com
 
 ! Naver 지도 광고 
-map.naver.com##div[id^="_ngcontent-oxp"]
+map.naver.com##div[class^="promotion_wrap"]
 
 ! Kakao/Daum 광고
 adimg.daumcdn.net
