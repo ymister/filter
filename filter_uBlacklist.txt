@@ -49,3 +49,25 @@
 *://*.eBay.com/*
 *://*.amazon.com/*
 *://*.aliexpress.com/*
+
+# report site
+#해피캠퍼스
+*://*.happycampus.com/*
+#레포트월드
+*://*.reportworld.co.kr/*
+#레포트샵
+*://*.reportshop.co.kr/*
+#레포트월드
+*://*.reportworld.co.kr/*
+#레포트마켓
+*://*.reportmarket.co.kr/*
+#올레포트
+*://*.allreport.co.kr/*
+#지식월드
+*://*.jisikworld.com/*
+#해피학술
+*://*.happyhaksul.com/*
+#findssam.com
+*://*.findssam.com/*
+#iwinv(fwd to allreport)
+*://*.iwinv.net/*
