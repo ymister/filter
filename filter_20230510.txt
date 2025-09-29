@@ -1,0 +1,358 @@
+# 2023.05.10. 수정
+# hosts style + Adware style + uBlock Origin style 
+
+# hosts식 차단 리스트
+# Naver 광고
+0.0.0.0 ad.naver.com
+0.0.0.0 ad.nbms.naver.com
+0.0.0.0 ad.news.naver.com
+0.0.0.0 ad.nmv.naver.com
+0.0.0.0 adc.naver.com
+#0.0.0.0 adcr.naver.com 쇼핑을 위해 차단 해제 
+0.0.0.0 adcreative.naver.com
+0.0.0.0 ams.rmcnmv.naver.com
+0.0.0.0 bb.ad.naver.com
+0.0.0.0 castbox.shopping.naver.com
+0.0.0.0 cpv.ad.naver.com
+0.0.0.0 creative.nbms.naver.com
+0.0.0.0 damoive.dn.naver.com
+0.0.0.0 damovie.dn.naver.com
+0.0.0.0 ia.www.naver.com
+0.0.0.0 l.m.naver.com
+0.0.0.0 nv.ad.naver.com
+0.0.0.0 nv.veta.naver.com
+0.0.0.0 nv1.ad.naver.com
+0.0.0.0 nv1.adcreative.naver.net
+0.0.0.0 nv2.adcreative.naver.net 
+0.0.0.0 nv1.veta.naver.com
+0.0.0.0 nv2.ad.naver.com
+0.0.0.0 nv2.veta.naver.com
+0.0.0.0 nv3.ad.naver.com
+0.0.0.0 nv4.ad.naver.com
+0.0.0.0 nv4.ad.naver.com
+0.0.0.0 saedu.naver.com
+0.0.0.0 searchad.naver.com
+0.0.0.0 syndication.openapi.naver.com
+0.0.0.0 veta.naver.com
+0.0.0.0 videost.nmv.naver.com
+0.0.0.0 vts.rmcnmv.naver.com
+0.0.0.0 wrd.naver.com
+
+# Kakao/Daum 광고
+0.0.0.0 adimg.daumcdn.net
+0.0.0.0 analytics.ad.daum.net
+0.0.0.0 display.ad.daum.net
+0.0.0.0 i1.shop.daumcdn.net
+0.0.0.0 shopping.daum.net
+
+# youtube 광고
+0.0.0.0 youtube.com###ticker-content
+0.0.0.0 youtube.com###watch7-sidebar-offer
+0.0.0.0 youtube.com##.float-mealbar
+0.0.0.0 youtube.com##.iv-merch-shelf
+0.0.0.0 youtube.com##.mealbar-promo-renderer
+0.0.0.0 youtube.com##.ytp-cards-button
+0.0.0.0 youtube.com##.ytp-cards-teaser
+0.0.0.0 youtube.com##.ytp-ce-covering-image
+0.0.0.0 youtube.com##.ytp-ce-covering-overlay
+0.0.0.0 youtube.com##.ytp-ce-element
+0.0.0.0 youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+0.0.0.0 youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+0.0.0.0 youtube.com##.ytp-ce-element-shadow
+0.0.0.0 youtube.com##.ytp-ce-expanding-image
+0.0.0.0 youtube.com##.ytp-endscreen-content
+0.0.0.0 youtube.com##.ytp-pause-overlay
+0.0.0.0 youtube.com##.ytp-related-on-error-overlay
+0.0.0.0 youtube.com##.ytp-scroll-min.ytp-pause-overlay
+
+# Ahnlab 광고 
+0.0.0.0 v3litecontents.ahnlab.com
+0.0.0.0 static.mplad.ahnlab.com
+0.0.0.0 v3contents.ahnlab.com
+
+# 클래스팅 광고
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 ad.appier.net
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 adservice.google.com
+0.0.0.0 adservice.google.co.kr
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 ad-files.classting.com
+0.0.0.0 ad.appier.net
+
+# 와우 라디오 광고
+0.0.0.0 svc.xmobile.kr
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 lh3.googleusercontent.com
+0.0.0.0 ad.doubleclick.net
+
+0.0.0.0 pagead0.googlesyndication.com
+0.0.0.0 pagead1.googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 pagead3.googlesyndication.com
+0.0.0.0 pagead4.googlesyndication.com
+0.0.0.0 pagead5.googlesyndication.com
+0.0.0.0 pagead6.googlesyndication.com
+0.0.0.0 pagead7.googlesyndication.com
+0.0.0.0 pagead8.googlesyndication.com
+0.0.0.0 pagead9.googlesyndication.com
+
+0.0.0.0 pagead0.googleadservices.com
+0.0.0.0 pagead1.googleadservices.com
+0.0.0.0 pagead2.googleadservices.com
+0.0.0.0 pagead3.googleadservices.com
+0.0.0.0 pagead4.googleadservices.com
+0.0.0.0 pagead5.googleadservices.com
+0.0.0.0 pagead6.googleadservices.com
+0.0.0.0 pagead7.googleadservices.com
+0.0.0.0 pagead8.googleadservices.com
+0.0.0.0 pagead9.googleadservices.com
+
+0.0.0.0 lh0.googleusercontent.com
+0.0.0.0 lh1.googleusercontent.com
+0.0.0.0 lh2.googleusercontent.com
+0.0.0.0 lh3.googleusercontent.com
+0.0.0.0 lh4.googleusercontent.com
+0.0.0.0 lh5.googleusercontent.com
+0.0.0.0 lh6.googleusercontent.com
+0.0.0.0 lh7.googleusercontent.com
+0.0.0.0 lh8.googleusercontent.com
+0.0.0.0 lh9.googleusercontent.com
+
+# 0.0.0.0 encrypted-tbn0.gstatic.com      일부 이미지가 안나와서!
+0.0.0.0 encrypted-tbn1.gstatic.com
+0.0.0.0 encrypted-tbn2.gstatic.com
+0.0.0.0 encrypted-tbn3.gstatic.com
+0.0.0.0 encrypted-tbn4.gstatic.com
+0.0.0.0 encrypted-tbn5.gstatic.com
+0.0.0.0 encrypted-tbn6.gstatic.com
+0.0.0.0 encrypted-tbn7.gstatic.com
+0.0.0.0 encrypted-tbn8.gstatic.com
+0.0.0.0 encrypted-tbn9.gstatic.com
+
+! Adware식 차단 리스트 (주소, 규칙)
+! Naver 광고
+ad.naver.com
+ad.nbms.naver.com
+ad.news.naver.com
+ad.nmv.naver.com
+adc.naver.com
+adcreative.naver.com
+ams.rmcnmv.naver.com
+bb.ad.naver.com
+castbox.shopping.naver.com
+cpv.ad.naver.com
+creative.nbms.naver.com
+damoive.dn.naver.com
+damovie.dn.naver.com
+ia.www.naver.com
+l.m.naver.com
+nv.ad.naver.com
+nv.veta.naver.com
+nv1.ad.naver.com
+nv1.adcreative.naver.net
+nv2.adcreative.naver.net 
+nv1.veta.naver.com
+nv2.ad.naver.com
+nv2.veta.naver.com
+nv3.ad.naver.com
+nv4.ad.naver.com
+nv4.ad.naver.com
+saedu.naver.com
+searchad.naver.com
+syndication.openapi.naver.com
+veta.naver.com
+videost.nmv.naver.com
+vts.rmcnmv.naver.com
+wrd.naver.com
+
+! Naver 지도 광고 
+map.naver.com##div[class^="promotion_wrap"]
+
+! Kakao/Daum 광고
+adimg.daumcdn.net
+analytics.ad.daum.net
+display.ad.daum.net
+i1.shop.daumcdn.net
+shopping.daum.net
+
+! youtube 광고
+youtube.com###ticker-content
+youtube.com###watch7-sidebar-offer
+youtube.com##.float-mealbar
+youtube.com##.iv-merch-shelf
+youtube.com##.mealbar-promo-renderer
+youtube.com##.ytp-cards-button
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-expanding-image
+youtube.com##.ytp-endscreen-content
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-related-on-error-overlay
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+
+! Ahnlab 광고 
+v3litecontents.ahnlab.com
+static.mplad.ahnlab.com
+v3contents.ahnlab.com
+
+! 클래스팅 광고
+googleads.g.doubleclick.net
+ad.appier.net
+pagead2.googlesyndication.com
+adservice.google.com
+adservice.google.co.kr
+tpc.googlesyndication.com
+securepubads.g.doubleclick.net
+ad-files.classting.com
+ad.appier.net
+
+! 와우 라디오 광고
+svc.xmobile.kr
+tpc.googlesyndication.com
+pagead2.googlesyndication.com
+pagead2.googleadservices.com
+googleads.g.doubleclick.net
+lh3.googleusercontent.com
+ad.doubleclick.net
+
+! uBlock Origin식 차단 리스트 (규칙 또는 주소+규칙)
+! Naver 광고
+||ad.naver.com
+||ad.nbms.naver.com
+||ad.news.naver.com
+||ad.nmv.naver.com
+||adc.naver.com
+||adcreative.naver.com
+||ams.rmcnmv.naver.com
+||bb.ad.naver.com
+||castbox.shopping.naver.com
+||cpv.ad.naver.com
+||creative.nbms.naver.com
+||damoive.dn.naver.com
+||damovie.dn.naver.com
+||ia.www.naver.com
+||l.m.naver.com
+||nv.ad.naver.com
+||nv.veta.naver.com
+||nv1.ad.naver.com
+||nv1.adcreative.naver.net
+||nv2.adcreative.naver.net 
+||nv1.veta.naver.com
+||nv2.ad.naver.com
+||nv2.veta.naver.com
+||nv3.ad.naver.com
+||nv4.ad.naver.com
+||nv4.ad.naver.com
+||saedu.naver.com
+||searchad.naver.com
+||syndication.openapi.naver.com
+||veta.naver.com
+||videost.nmv.naver.com
+||vts.rmcnmv.naver.com
+||wrd.naver.com
+
+! Kakao/Daum 광고
+||adimg.daumcdn.net
+||analytics.ad.daum.net
+||display.ad.daum.net
+||i1.shop.daumcdn.net
+||shopping.daum.net
+
+! youtube 광고
+||youtube.com###ticker-content
+||youtube.com###watch7-sidebar-offer
+||youtube.com##.float-mealbar
+||youtube.com##.iv-merch-shelf
+||youtube.com##.mealbar-promo-renderer
+||youtube.com##.ytp-cards-button
+||youtube.com##.ytp-cards-teaser
+||youtube.com##.ytp-ce-covering-image
+||youtube.com##.ytp-ce-covering-overlay
+||youtube.com##.ytp-ce-element
+||youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+||youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+||youtube.com##.ytp-ce-element-shadow
+||youtube.com##.ytp-ce-expanding-image
+||youtube.com##.ytp-endscreen-content
+||youtube.com##.ytp-pause-overlay
+||youtube.com##.ytp-related-on-error-overlay
+||youtube.com##.ytp-scroll-min.ytp-pause-overlay
+
+! Ahnlab 광고 
+||v3litecontents.ahnlab.com^
+||static.mplad.ahnlab.com^
+||v3contents.ahnlab.com^
+
+! 클래스팅 광고
+||googleads.g.doubleclick.net^
+||ad.appier.net^
+||pagead2.googlesyndication.com^
+||adservice.google.com^
+||adservice.google.co.kr^
+||tpc.googlesyndication.com^
+||securepubads.g.doubleclick.net^
+||ad-files.classting.com^
+||ad.appier.net^
+
+! 와우 라디오 광고
+||svc.xmobile.kr^
+||tpc.googlesyndication.com^
+||pagead2.googlesyndication.com^
+||pagead2.googleadservices.com^
+||googleads.g.doubleclick.net^
+||lh3.googleusercontent.com^
+||ad.doubleclick.net^
+
+||pagead0.googlesyndication.com^
+||pagead1.googlesyndication.com^
+||pagead2.googlesyndication.com^
+||pagead3.googlesyndication.com^
+||pagead4.googlesyndication.com^
+||pagead5.googlesyndication.com^
+||pagead6.googlesyndication.com^
+||pagead7.googlesyndication.com^
+||pagead8.googlesyndication.com^
+||pagead9.googlesyndication.com^
+
+||pagead0.googleadservices.com^
+||pagead1.googleadservices.com^
+||pagead2.googleadservices.com^
+||pagead3.googleadservices.com^
+||pagead4.googleadservices.com^
+||pagead5.googleadservices.com^
+||pagead6.googleadservices.com^
+||pagead7.googleadservices.com^
+||pagead8.googleadservices.com^
+||pagead9.googleadservices.com^
+
+||lh0.googleusercontent.com^
+||lh1.googleusercontent.com^
+||lh2.googleusercontent.com^
+||lh3.googleusercontent.com^
+||lh4.googleusercontent.com^
+||lh5.googleusercontent.com^
+||lh6.googleusercontent.com^
+||lh7.googleusercontent.com^
+||lh8.googleusercontent.com^
+||lh9.googleusercontent.com^
+
+! ||encrypted-tbn0.gstatic.com^       일부 이미지가 안나와서!
+||encrypted-tbn1.gstatic.com^
+||encrypted-tbn2.gstatic.com^
+||encrypted-tbn3.gstatic.com^
+||encrypted-tbn4.gstatic.com^
+||encrypted-tbn5.gstatic.com^
+||encrypted-tbn6.gstatic.com^
+||encrypted-tbn7.gstatic.com^
+||encrypted-tbn8.gstatic.com^
+||encrypted-tbn9.gstatic.com^
