@@ -54,6 +54,7 @@
 0.0.0.0 talk.kakaocdn.net
 0.0.0.0 play.kakao.com
 0.0.0.0 ik.kakaocdn.net
+0.0.0.0 talk-pilsner.kakao.com 
 # 카카오톡 쇼핑 탭 차단
 0.0.0.0 shopper.kakao.com
 
