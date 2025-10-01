@@ -45,12 +45,15 @@
 0.0.0.0 i1.shop.daumcdn.net
 0.0.0.0 shopping.daum.net
 
-# 카카오톡 메인피드 차단
-0.0.0.0 talk-pilsner.kakao.com
-0.0.0.0 ik.kakaocdn.net
-# 카카오톡 숏폼 탭 차단
+# 카카오톡 광고, 숏폼 차단
+0.0.0.0 kamp.kakao.com
+0.0.0.0 shortformstats.kakao.com
+0.0.0.0 vsak1.play.kakao.com
+0.0.0.0 vscf.play.kakao.com
+0.0.0.0 iopen.kakaocdn.net
+0.0.0.0 talk.kakaocdn.net
 0.0.0.0 play.kakao.com
-0.0.0.0 shorformstats.kakao.com
+0.0.0.0 ik.kakaocdn.net
 # 카카오톡 쇼핑 탭 차단
 0.0.0.0 shopper.kakao.com
 
