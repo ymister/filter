@@ -1,4 +1,4 @@
-# 2025.１０.０１. 수정
+# 2025.10.01.수정
 # hosts style + Adware style + uBlock Origin style 
 
 # hosts식 차단 리스트
