@@ -192,6 +192,18 @@ display.ad.daum.net
 i1.shop.daumcdn.net
 shopping.daum.net
 
+! 카카오톡 광고, 숏폼 차단
+kamp.kakao.com
+shortformstats.kakao.com
+vsak1.play.kakao.com
+vscf.play.kakao.com
+iopen.kakaocdn.net
+talk.kakaocdn.net
+play.kakao.com
+ik.kakaocdn.net
+! 카카오톡 쇼핑 탭 차단
+shopper.kakao.com
+
 ! youtube 광고
 youtube.com###ticker-content
 youtube.com###watch7-sidebar-offer
@@ -239,46 +251,58 @@ ad.doubleclick.net
 
 ! uBlock Origin식 차단 리스트 (규칙 또는 주소+규칙)
 ! Naver 광고
-||ad.naver.com
-||ad.nbms.naver.com
-||ad.news.naver.com
-||ad.nmv.naver.com
-||adc.naver.com
-||adcreative.naver.com
-||ams.rmcnmv.naver.com
-||bb.ad.naver.com
-||castbox.shopping.naver.com
-||cpv.ad.naver.com
-||creative.nbms.naver.com
-||damoive.dn.naver.com
-||damovie.dn.naver.com
-||ia.www.naver.com
-||l.m.naver.com
-||nv.ad.naver.com
-||nv.veta.naver.com
-||nv1.ad.naver.com
-||nv1.adcreative.naver.net
-||nv2.adcreative.naver.net 
-||nv1.veta.naver.com
-||nv2.ad.naver.com
-||nv2.veta.naver.com
-||nv3.ad.naver.com
-||nv4.ad.naver.com
-||nv4.ad.naver.com
-||saedu.naver.com
-||searchad.naver.com
-||syndication.openapi.naver.com
-||veta.naver.com
-||videost.nmv.naver.com
-||vts.rmcnmv.naver.com
-||wrd.naver.com
+||ad.naver.com^
+||ad.nbms.naver.com^
+||ad.news.naver.com^
+||ad.nmv.naver.com^
+||adc.naver.com^
+||adcreative.naver.com^
+||ams.rmcnmv.naver.com^
+||bb.ad.naver.com^
+||castbox.shopping.naver.com^
+||cpv.ad.naver.com^
+||creative.nbms.naver.com^
+||damoive.dn.naver.com^
+||damovie.dn.naver.com^
+||ia.www.naver.com^
+||l.m.naver.com^
+||nv.ad.naver.com^
+||nv.veta.naver.com^
+||nv1.ad.naver.com^
+||nv1.adcreative.naver.net^
+||nv2.adcreative.naver.net^
+||nv1.veta.naver.com^
+||nv2.ad.naver.com^
+||nv2.veta.naver.com^
+||nv3.ad.naver.com^
+||nv4.ad.naver.com^
+||nv4.ad.naver.com^
+||saedu.naver.com^
+||searchad.naver.com^
+||syndication.openapi.naver.com^
+||veta.naver.com^
+||videost.nmv.naver.com^
+||vts.rmcnmv.naver.com^
+||wrd.naver.com^
 
 ! Kakao/Daum 광고
-||adimg.daumcdn.net
-||analytics.ad.daum.net
-||display.ad.daum.net
-||i1.shop.daumcdn.net
-||shopping.daum.net
+||adimg.daumcdn.net^
+||analytics.ad.daum.net^
+||display.ad.daum.net^
+||i1.shop.daumcdn.net^
+||shopping.daum.net^
+
+! 카카오톡 광고, 숏폼 차단
+|| kamp.kakao.com^
+|| shortformstats.kakao.com^
+|| vsak1.play.kakao.com^
+|| vscf.play.kakao.com^
+|| iopen.kakaocdn.net^
+|| talk.kakaocdn.net^
+|| play.kakao.com^
+|| ik.kakaocdn.net^
+! 카카오톡 쇼핑 탭 차단
+|| shopper.kakao.com^
 
 ! youtube 광고
 ||youtube.com###ticker-content
