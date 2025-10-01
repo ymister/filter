@@ -202,6 +202,7 @@ iopen.kakaocdn.net
 talk.kakaocdn.net
 play.kakao.com
 ik.kakaocdn.net
+talk-pilsner.kakao.com
 ! 카카오톡 쇼핑 탭 차단
 shopper.kakao.com
 
@@ -302,6 +303,7 @@ ad.doubleclick.net
 || talk.kakaocdn.net^
 || play.kakao.com^
 || ik.kakaocdn.net^
+|| talk-pilsner.kakao.com^
 ! 카카오톡 쇼핑 탭 차단
 || shopper.kakao.com^
 
