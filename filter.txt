@@ -38,6 +38,12 @@
 0.0.0.0 vts.rmcnmv.naver.com
 0.0.0.0 wrd.naver.com
 
+# Naver News 모바일 광고
+0.0.0.0 ad-creative.pstatic.net
+0.0.0.0 naverpa-phinf.pstatic.net
+0.0.0.0 g.tivan.naver.com
+0.0.0.0 ssl.pstatic.net
+
 # Kakao/Daum 광고
 0.0.0.0 adimg.daumcdn.net
 0.0.0.0 analytics.ad.daum.net
@@ -186,6 +192,12 @@ wrd.naver.com
 ! Naver 지도 광고 
 map.naver.com##div[class^="promotion_wrap"]
 
+! Naver News 모바일 광고
+ad-creative.pstatic.net
+naverpa-phinf.pstatic.net
+g.tivan.naver.com
+ssl.pstatic.net
+
 ! Kakao/Daum 광고
 adimg.daumcdn.net
 analytics.ad.daum.net
@@ -286,6 +298,12 @@ ad.doubleclick.net
 ||videost.nmv.naver.com^
 ||vts.rmcnmv.naver.com^
 ||wrd.naver.com^
+
+! Naver News 모바일 광고
+||ad-creative.pstatic.net^
+||naverpa-phinf.pstatic.net^
+||g.tivan.naver.com^
+||ssl.pstatic.net^
 
 ! Kakao/Daum 광고
 ||adimg.daumcdn.net^
