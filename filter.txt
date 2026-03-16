@@ -1,4 +1,4 @@
-# 2026.03.06.수정
+# 2026.03.16.수정
 # hosts style + Adware style + uBlock Origin style 
 
 # hosts식 차단 리스트
@@ -108,6 +108,17 @@
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 lh3.googleusercontent.com
 0.0.0.0 ad.doubleclick.net
+
+# 연합뉴스TV 모바일 광고(1x1 악성 숨김 스크립트 많은 사이트)
+# List-KR과 중복된 다섯 개(ad.aceplanet.co.kr, io1.innorame.com, www.mediacategory.com, api.dable.io, cdn.interworksmedia.co.kr) 제외
+0.0.0.0 js.ad4989.co.kr
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 img.mobon.net
+0.0.0.0 tm.interworksmedia.co.kr
+0.0.0.0 ds.interworksmedia.co.kr
+0.0.0.0 interface.interworksmedia.co.kr
+0.0.0.0 ads.pubmatic.com
+0.0.0.0 astg.widerplanet.com
 
 0.0.0.0 pagead0.googlesyndication.com
 0.0.0.0 pagead1.googlesyndication.com
@@ -263,6 +274,18 @@ googleads.g.doubleclick.net
 lh3.googleusercontent.com
 ad.doubleclick.net
 
+! 연합뉴스TV 모바일 광고(1x1 악성 숨김 스크립트 많은 사이트)
+! List-KR과 중복된 다섯 개(ad.aceplanet.co.kr, io1.innorame.com, www.mediacategory.com, api.dable.io, cdn.interworksmedia.co.kr) 제외
+js.ad4989.co.kr
+securepubads.g.doubleclick.net
+img.mobon.net
+tm.interworksmedia.co.kr
+ds.interworksmedia.co.kr
+interface.interworksmedia.co.kr
+ads.pubmatic.com
+astg.widerplanet.com
+
+
 ! uBlock Origin식 차단 리스트 (규칙 또는 주소+규칙)
 ! Naver 광고
 ||ad.naver.com^
@@ -369,6 +392,19 @@ ad.doubleclick.net
 ||googleads.g.doubleclick.net^
 ||lh3.googleusercontent.com^
 ||ad.doubleclick.net^
+
+! 연합뉴스TV 모바일 광고(1x1 악성 숨김 스크립트 많은 사이트)
+! List-KR과 중복된 다섯 개(ad.aceplanet.co.kr, io1.innorame.com, www.mediacategory.com, api.dable.io, cdn.interworksmedia.co.kr) 제외
+||js.ad4989.co.kr
+||securepubads.g.doubleclick.net
+||img.mobon.net
+||tm.interworksmedia.co.kr
+||ds.interworksmedia.co.kr
+||interface.interworksmedia.co.kr
+||ads.pubmatic.com
+||astg.widerplanet.com
+
+
 
 ||pagead0.googlesyndication.com^
 ||pagead1.googlesyndication.com^
