@@ -1,0 +1,3 @@
+ezar.co.kr##img.md\:flex.rounded-lg.h-auto
+
+kr.investing.com##div[tabindex][data-floating-ui-focusable][role] > div > div[style]
