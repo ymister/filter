@@ -39,10 +39,10 @@
 0.0.0.0 wrd.naver.com
 
 # Naver News 모바일 광고
-0.0.0.0 ad-creative.pstatic.net
-0.0.0.0 naverpa-phinf.pstatic.net
-0.0.0.0 g.tivan.naver.com
-0.0.0.0 ssl.pstatic.net
+#0.0.0.0 ad-creative.pstatic.net
+#0.0.0.0 naverpa-phinf.pstatic.net
+#0.0.0.0 g.tivan.naver.com
+#0.0.0.0 ssl.pstatic.net
 
 # Kakao/Daum 광고
 0.0.0.0 adimg.daumcdn.net
