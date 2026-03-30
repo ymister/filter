@@ -13,6 +13,7 @@
 0.0.0.0 ams.rmcnmv.naver.com
 0.0.0.0 bb.ad.naver.com
 0.0.0.0 castbox.shopping.naver.com
+0.0.0.0 contents.premium.naver.com
 0.0.0.0 cpv.ad.naver.com
 0.0.0.0 creative.nbms.naver.com
 0.0.0.0 damoive.dn.naver.com
@@ -178,6 +179,7 @@ adcreative.naver.com
 ams.rmcnmv.naver.com
 bb.ad.naver.com
 castbox.shopping.naver.com
+contents.premium.naver.com
 cpv.ad.naver.com
 creative.nbms.naver.com
 damoive.dn.naver.com
@@ -303,6 +305,7 @@ astg.widerplanet.com
 ||ams.rmcnmv.naver.com^
 ||bb.ad.naver.com^
 ||castbox.shopping.naver.com^
+||contents.premium.naver.com
 ||cpv.ad.naver.com^
 ||creative.nbms.naver.com^
 ||damoive.dn.naver.com^
