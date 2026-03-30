@@ -44,6 +44,9 @@
 0.0.0.0 g.tivan.naver.com
 0.0.0.0 ssl.pstatic.net
 
+# Naver Cafe 모바일 광고
+0.0.0.0 cafeptthumb-phinf.pstatic.net
+
 # Kakao/Daum 광고
 0.0.0.0 adimg.daumcdn.net
 0.0.0.0 analytics.ad.daum.net
@@ -209,6 +212,9 @@ naverpa-phinf.pstatic.net
 g.tivan.naver.com
 ssl.pstatic.net
 
+! Naver Cafe 모바일 광고
+cafeptthumb-phinf.pstatic.net
+
 ! Kakao/Daum 광고
 adimg.daumcdn.net
 analytics.ad.daum.net
@@ -327,6 +333,9 @@ astg.widerplanet.com
 ||naverpa-phinf.pstatic.net^
 ||g.tivan.naver.com^
 ||ssl.pstatic.net^
+
+! Naver Cafe 모바일 광고
+||cafeptthumb-phinf.pstatic.net
 
 ! Kakao/Daum 광고
 ||adimg.daumcdn.net^
