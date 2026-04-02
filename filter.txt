@@ -1,4 +1,4 @@
-# 2026.03.31.수정
+# 2026.04.03.수정
 # hosts style + Adware style + uBlock Origin style 
 
 # hosts식 차단 리스트
@@ -68,61 +68,16 @@
 # 카카오톡 쇼핑 탭 차단
 0.0.0.0 shopper.kakao.com
 
-# youtube 광고
-0.0.0.0 youtube.com###ticker-content
-0.0.0.0 youtube.com###watch7-sidebar-offer
-0.0.0.0 youtube.com##.float-mealbar
-0.0.0.0 youtube.com##.iv-merch-shelf
-0.0.0.0 youtube.com##.mealbar-promo-renderer
-0.0.0.0 youtube.com##.ytp-cards-button
-0.0.0.0 youtube.com##.ytp-cards-teaser
-0.0.0.0 youtube.com##.ytp-ce-covering-image
-0.0.0.0 youtube.com##.ytp-ce-covering-overlay
-0.0.0.0 youtube.com##.ytp-ce-element
-0.0.0.0 youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
-0.0.0.0 youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
-0.0.0.0 youtube.com##.ytp-ce-element-shadow
-0.0.0.0 youtube.com##.ytp-ce-expanding-image
-0.0.0.0 youtube.com##.ytp-endscreen-content
-0.0.0.0 youtube.com##.ytp-pause-overlay
-0.0.0.0 youtube.com##.ytp-related-on-error-overlay
-0.0.0.0 youtube.com##.ytp-scroll-min.ytp-pause-overlay
-
-# Ahnlab 광고 
-0.0.0.0 v3litecontents.ahnlab.com
-0.0.0.0 static.mplad.ahnlab.com
-0.0.0.0 v3contents.ahnlab.com
-
-# 클래스팅 광고
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 ad.appier.net
-0.0.0.0 pagead2.googlesyndication.com
+# google 광고
 0.0.0.0 adservice.google.com
 0.0.0.0 adservice.google.co.kr
+0.0.0.0 adssettings.google.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 ad-files.classting.com
-0.0.0.0 ad.appier.net
-
-# 와우 라디오 광고
-0.0.0.0 svc.xmobile.kr
-0.0.0.0 tpc.googlesyndication.com
-0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 pagead2.googleadservices.com
 0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 lh3.googleusercontent.com
 0.0.0.0 ad.doubleclick.net
-
-# 연합뉴스TV 모바일 광고(1x1 악성 숨김 스크립트 많은 사이트)
-# List-KR과 중복된 다섯 개(ad.aceplanet.co.kr, io1.innorame.com, www.mediacategory.com, api.dable.io, cdn.interworksmedia.co.kr) 제외
-0.0.0.0 js.ad4989.co.kr
-0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 img.mobon.net
-0.0.0.0 tm.interworksmedia.co.kr
-0.0.0.0 ds.interworksmedia.co.kr
-0.0.0.0 interface.interworksmedia.co.kr
-0.0.0.0 ads.pubmatic.com
-0.0.0.0 astg.widerplanet.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 adclick.g.doubleclick.net
 
 0.0.0.0 pagead0.googlesyndication.com
 0.0.0.0 pagead1.googlesyndication.com
@@ -167,6 +122,51 @@
 0.0.0.0 encrypted-tbn7.gstatic.com
 0.0.0.0 encrypted-tbn8.gstatic.com
 0.0.0.0 encrypted-tbn9.gstatic.com
+
+
+# youtube 광고
+0.0.0.0 youtube.com###ticker-content
+0.0.0.0 youtube.com###watch7-sidebar-offer
+0.0.0.0 youtube.com##.float-mealbar
+0.0.0.0 youtube.com##.iv-merch-shelf
+0.0.0.0 youtube.com##.mealbar-promo-renderer
+0.0.0.0 youtube.com##.ytp-cards-button
+0.0.0.0 youtube.com##.ytp-cards-teaser
+0.0.0.0 youtube.com##.ytp-ce-covering-image
+0.0.0.0 youtube.com##.ytp-ce-covering-overlay
+0.0.0.0 youtube.com##.ytp-ce-element
+0.0.0.0 youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+0.0.0.0 youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+0.0.0.0 youtube.com##.ytp-ce-element-shadow
+0.0.0.0 youtube.com##.ytp-ce-expanding-image
+0.0.0.0 youtube.com##.ytp-endscreen-content
+0.0.0.0 youtube.com##.ytp-pause-overlay
+0.0.0.0 youtube.com##.ytp-related-on-error-overlay
+0.0.0.0 youtube.com##.ytp-scroll-min.ytp-pause-overlay
+
+# Ahnlab 광고 
+0.0.0.0 v3litecontents.ahnlab.com
+0.0.0.0 static.mplad.ahnlab.com
+0.0.0.0 v3contents.ahnlab.com
+
+# 클래스팅 광고
+0.0.0.0 ad.appier.net
+0.0.0.0 ad-files.classting.com
+0.0.0.0 ad.appier.net
+
+# 와우 라디오 광고
+0.0.0.0 svc.xmobile.kr
+
+# 연합뉴스TV 모바일 광고(1x1 악성 숨김 스크립트 많은 사이트)
+# List-KR과 중복된 다섯 개(ad.aceplanet.co.kr, io1.innorame.com, www.mediacategory.com, api.dable.io, cdn.interworksmedia.co.kr) 제외
+0.0.0.0 js.ad4989.co.kr
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 img.mobon.net
+0.0.0.0 tm.interworksmedia.co.kr
+0.0.0.0 ds.interworksmedia.co.kr
+0.0.0.0 interface.interworksmedia.co.kr
+0.0.0.0 ads.pubmatic.com
+0.0.0.0 astg.widerplanet.com
 
 ! Adware식 차단 리스트 (주소, 규칙)
 ! Naver 광고
@@ -237,6 +237,61 @@ talk-pilsner.kakao.com
 ! 카카오톡 쇼핑 탭 차단
 shopper.kakao.com
 
+! google 광고
+adservice.google.com
+adservice.google.co.kr
+adssettings.google.com
+tpc.googlesyndication.com
+securepubads.g.doubleclick.net
+googleads.g.doubleclick.net
+ad.doubleclick.net
+googleads.g.doubleclick.net
+adclick.g.doubleclick.net
+
+pagead0.googlesyndication.com
+pagead1.googlesyndication.com
+pagead2.googlesyndication.com
+pagead3.googlesyndication.com
+pagead4.googlesyndication.com
+pagead5.googlesyndication.com
+pagead6.googlesyndication.com
+pagead7.googlesyndication.com
+pagead8.googlesyndication.com
+pagead9.googlesyndication.com
+
+pagead0.googleadservices.com
+pagead1.googleadservices.com
+pagead2.googleadservices.com
+pagead3.googleadservices.com
+pagead4.googleadservices.com
+pagead5.googleadservices.com
+pagead6.googleadservices.com
+pagead7.googleadservices.com
+pagead8.googleadservices.com
+pagead9.googleadservices.com
+
+lh0.googleusercontent.com
+lh1.googleusercontent.com
+lh2.googleusercontent.com
+lh3.googleusercontent.com
+lh4.googleusercontent.com
+lh5.googleusercontent.com
+lh6.googleusercontent.com
+lh7.googleusercontent.com
+lh8.googleusercontent.com
+lh9.googleusercontent.com
+
+! encrypted-tbn0.gstatic.com       일부 이미지가 안나와서!
+encrypted-tbn1.gstatic.com
+encrypted-tbn2.gstatic.com
+encrypted-tbn3.gstatic.com
+encrypted-tbn4.gstatic.com
+encrypted-tbn5.gstatic.com
+encrypted-tbn6.gstatic.com
+encrypted-tbn7.gstatic.com
+encrypted-tbn8.gstatic.com
+encrypted-tbn9.gstatic.com
+
 ! youtube 광고
 youtube.com###ticker-content
 youtube.com###watch7-sidebar-offer
@@ -263,24 +318,12 @@ static.mplad.ahnlab.com
 v3contents.ahnlab.com
 
 ! 클래스팅 광고
-googleads.g.doubleclick.net
 ad.appier.net
-pagead2.googlesyndication.com
-adservice.google.com
-adservice.google.co.kr
-tpc.googlesyndication.com
-securepubads.g.doubleclick.net
 ad-files.classting.com
 ad.appier.net
 
 ! 와우 라디오 광고
 svc.xmobile.kr
-tpc.googlesyndication.com
-pagead2.googlesyndication.com
-pagead2.googleadservices.com
-googleads.g.doubleclick.net
-lh3.googleusercontent.com
-ad.doubleclick.net
 
 ! 연합뉴스TV 모바일 광고(1x1 악성 숨김 스크립트 많은 사이트)
 ! List-KR과 중복된 다섯 개(ad.aceplanet.co.kr, io1.innorame.com, www.mediacategory.com, api.dable.io, cdn.interworksmedia.co.kr) 제외
@@ -338,7 +381,7 @@ astg.widerplanet.com
 ||ssl.pstatic.net^
 
 ! Naver Cafe 모바일 광고
-||cafeptthumb-phinf.pstatic.net
+||cafeptthumb-phinf.pstatic.net^
 
 ! Kakao/Daum 광고
 ||adimg.daumcdn.net^
@@ -360,63 +403,16 @@ astg.widerplanet.com
 ! 카카오톡 쇼핑 탭 차단
 || shopper.kakao.com^
 
-! youtube 광고
-||youtube.com###ticker-content
-||youtube.com###watch7-sidebar-offer
-||youtube.com##.float-mealbar
-||youtube.com##.iv-merch-shelf
-||youtube.com##.mealbar-promo-renderer
-||youtube.com##.ytp-cards-button
-||youtube.com##.ytp-cards-teaser
-||youtube.com##.ytp-ce-covering-image
-||youtube.com##.ytp-ce-covering-overlay
-||youtube.com##.ytp-ce-element
-||youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
-||youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
-||youtube.com##.ytp-ce-element-shadow
-||youtube.com##.ytp-ce-expanding-image
-||youtube.com##.ytp-endscreen-content
-||youtube.com##.ytp-pause-overlay
-||youtube.com##.ytp-related-on-error-overlay
-||youtube.com##.ytp-scroll-min.ytp-pause-overlay
-
-! Ahnlab 광고 
-||v3litecontents.ahnlab.com^
-||static.mplad.ahnlab.com^
-||v3contents.ahnlab.com^
-
-! 클래스팅 광고
-||googleads.g.doubleclick.net^
-||ad.appier.net^
-||pagead2.googlesyndication.com^
+! google 광고
 ||adservice.google.com^
 ||adservice.google.co.kr^
+||adssettings.google.com^
 ||tpc.googlesyndication.com^
 ||securepubads.g.doubleclick.net^
-||ad-files.classting.com^
-||ad.appier.net^
-
-! 와우 라디오 광고
-||svc.xmobile.kr^
-||tpc.googlesyndication.com^
-||pagead2.googlesyndication.com^
-||pagead2.googleadservices.com^
 ||googleads.g.doubleclick.net^
-||lh3.googleusercontent.com^
 ||ad.doubleclick.net^
-
-! 연합뉴스TV 모바일 광고(1x1 악성 숨김 스크립트 많은 사이트)
-! List-KR과 중복된 다섯 개(ad.aceplanet.co.kr, io1.innorame.com, www.mediacategory.com, api.dable.io, cdn.interworksmedia.co.kr) 제외
-||js.ad4989.co.kr
-||securepubads.g.doubleclick.net
-||img.mobon.net
-||tm.interworksmedia.co.kr
-||ds.interworksmedia.co.kr
-||interface.interworksmedia.co.kr
-||ads.pubmatic.com
-||astg.widerplanet.com
-
-
+||googleads.g.doubleclick.net^
+||adclick.g.doubleclick.net^
 
 ||pagead0.googlesyndication.com^
 ||pagead1.googlesyndication.com^
@@ -461,3 +457,49 @@ astg.widerplanet.com
 ||encrypted-tbn7.gstatic.com^
 ||encrypted-tbn8.gstatic.com^
 ||encrypted-tbn9.gstatic.com^
+
+! youtube 광고
+||youtube.com###ticker-content
+||youtube.com###watch7-sidebar-offer
+||youtube.com##.float-mealbar
+||youtube.com##.iv-merch-shelf
+||youtube.com##.mealbar-promo-renderer
+||youtube.com##.ytp-cards-button
+||youtube.com##.ytp-cards-teaser
+||youtube.com##.ytp-ce-covering-image
+||youtube.com##.ytp-ce-covering-overlay
+||youtube.com##.ytp-ce-element
+||youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+||youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+||youtube.com##.ytp-ce-element-shadow
+||youtube.com##.ytp-ce-expanding-image
+||youtube.com##.ytp-endscreen-content
+||youtube.com##.ytp-pause-overlay
+||youtube.com##.ytp-related-on-error-overlay
+||youtube.com##.ytp-scroll-min.ytp-pause-overlay
+
+! Ahnlab 광고 
+||v3litecontents.ahnlab.com^
+||static.mplad.ahnlab.com^
+||v3contents.ahnlab.com^
+
+! 클래스팅 광고
+||ad.appier.net^
+||ad-files.classting.com^
+||ad.appier.net^
+
+! 와우 라디오 광고
+||svc.xmobile.kr^
+
+! 연합뉴스TV 모바일 광고(1x1 악성 숨김 스크립트 많은 사이트)
+! List-KR과 중복된 다섯 개(ad.aceplanet.co.kr, io1.innorame.com, www.mediacategory.com, api.dable.io, cdn.interworksmedia.co.kr) 제외
+||js.ad4989.co.kr^
+||securepubads.g.doubleclick.net^
+||img.mobon.net^
+||tm.interworksmedia.co.kr^
+||ds.interworksmedia.co.kr^
+||interface.interworksmedia.co.kr^
+||ads.pubmatic.com^
+||astg.widerplanet.com^
+
+
