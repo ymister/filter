@@ -378,7 +378,7 @@ astg.widerplanet.com
 ||ad-creative.pstatic.net^
 ||naverpa-phinf.pstatic.net^
 ||g.tivan.naver.com^
-||ssl.pstatic.net^
+! ||ssl.pstatic.net^
 
 ! Naver Cafe 모바일 광고
 ||cafeptthumb-phinf.pstatic.net^
