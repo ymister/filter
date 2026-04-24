@@ -43,7 +43,7 @@
 0.0.0.0 ad-creative.pstatic.net
 0.0.0.0 naverpa-phinf.pstatic.net
 0.0.0.0 g.tivan.naver.com
-0.0.0.0 ssl.pstatic.net
+# 0.0.0.0 ssl.pstatic.net
 
 # Naver Cafe 모바일 광고
 0.0.0.0 cafeptthumb-phinf.pstatic.net
@@ -212,7 +212,7 @@ map.naver.com##div[class^="promotion_wrap"]
 ad-creative.pstatic.net
 naverpa-phinf.pstatic.net
 g.tivan.naver.com
-ssl.pstatic.net
+! ssl.pstatic.net
 
 ! Naver Cafe 모바일 광고
 cafeptthumb-phinf.pstatic.net
